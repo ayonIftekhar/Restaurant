@@ -79,7 +79,7 @@ function LogIn() {
                         <div className="text-center mt-3 mb-2">
                           <h3 className=" fw-bold text-dark">
                             <span className="text-warning fst-italic">
-                              Caffe 69
+                              Caffe 88
                             </span>
                             <span className="text-muted fs-5 fst-italic">
                               , Dhaka
