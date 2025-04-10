@@ -1,0 +1,36 @@
+.explore-menu-list {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+.explore-menu-list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
+
+.explore-menu-list-item {
+    cursor: pointer;
+}
+
+.explore-menu-list-item .active {
+    border: 5px solid tomato;
+    padding: 2px;
+}
+
+.scroll-icon {
+    cursor: pointer;
+    margin-left : 10px;
+    color: #747474;
+    transition: color 0.2s;
+}
+
+.scroll-icon:hover {
+    color: tomato;
+}
+
+.category hr {
+    color: #747474;
+}
