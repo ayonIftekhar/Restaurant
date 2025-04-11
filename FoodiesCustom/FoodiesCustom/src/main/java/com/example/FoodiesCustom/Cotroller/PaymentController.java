@@ -74,9 +74,9 @@ public class PaymentController {
         payload.put("total_amount", "" + request.getPrice());
         payload.put("currency", "BDT");
         payload.put("tran_id", tran_id);
-        payload.put("success_url", "http://localhost:8869/api/payment/success");
-        payload.put("fail_url", "http://localhost:8869/api/payment/fail");
-        payload.put("cancel_url", "http://localhost:8869/api/payment/cancel");
+        payload.put("success_url", "https://restaurant-gwgl.onrender.com/api/payment/success");
+        payload.put("fail_url", "https://restaurant-gwgl.onrender.com/api/payment/fail");
+        payload.put("cancel_url", "https://restaurant-gwgl.onrender.com/api/payment/cancel");
         payload.put("cus_name", request.getFirstName() + " " + request.getLastName());
         payload.put("cus_email", request.getEmail());
         payload.put("cus_add1", request.getAddress());
