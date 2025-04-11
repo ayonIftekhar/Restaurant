@@ -127,7 +127,7 @@ public class PaymentController {
             orderService.updatePaymentStatus(tran_id);
             userService.clearCart(orderRepository.findByTransactionId(tran_id).getUserId());
         }
-        response.sendRedirect("http://localhost:5173/order-history");
+        response.sendRedirect("https://restaurant-chi-lake.vercel.app/order-history");
     }
 
 
@@ -136,7 +136,7 @@ public class PaymentController {
     public void paymentFail(@RequestParam String tran_id , HttpServletResponse response) throws IOException {
 
         orderService.deleteByTransactionId(tran_id);
-        response.sendRedirect("http://localhost:5173/order");
+        response.sendRedirect("https://restaurant-chi-lake.vercel.app/order");
     }
 
     private boolean requestValidation(String val_id){
