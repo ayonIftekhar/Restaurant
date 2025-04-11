@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = 'http://localhost:8869/api/foods'
+const URL = 'https://restaurant-gwgl.onrender.com/api/foods'
 
 async function addFood ( foodDetails , image ){
     const formData = new FormData();
