@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const URL = 'http://localhost:8869/api'
+const URL = 'https://restaurant-gwgl.onrender.com/api'
 
 export async function getAllFoods(){
     const response = await axios.get(URL + '/foods');

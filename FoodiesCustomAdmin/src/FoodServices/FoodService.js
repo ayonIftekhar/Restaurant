@@ -23,7 +23,7 @@ export async function removeFood(id){
 }
 
 export async function getOrders(){
-    const response = axios.get('http://localhost:8869/api/all-orders')
+    const response = axios.get('https://restaurant-gwgl.onrender.com/api/all-orders')
     return response;
 }
 

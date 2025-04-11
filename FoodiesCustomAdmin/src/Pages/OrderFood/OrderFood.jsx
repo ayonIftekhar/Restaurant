@@ -29,9 +29,12 @@ function OrderFood(){
 
     const updateStatus = async (orderId, newStatus) => {
       try {
-        await axios.put(`http://localhost:8869/api/all-orders/${orderId}`, {
-          status: newStatus,
-        });
+        await axios.put(
+          `https://restaurant-gwgl.onrender.com/api/all-orders/${orderId}`,
+          {
+            status: newStatus,
+          }
+        );
         toast.success("Status updated!");
       } catch (err) {
        toast.error("failed upadting status")
