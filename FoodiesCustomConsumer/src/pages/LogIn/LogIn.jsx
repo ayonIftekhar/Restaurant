@@ -149,7 +149,7 @@ function LogIn() {
                         <div className="text-center mt-3">
                           <p>Or login with</p>
                           <a
-                            href="http://localhost:8869/oauth2/authorization/google"
+                            href="https://restaurant-gwgl.onrender.com/oauth2/authorization/google"
                             className="btn btn-outline-danger btn-md"
                           >
                             <i className="fab fa-google me-2"></i> Login with
