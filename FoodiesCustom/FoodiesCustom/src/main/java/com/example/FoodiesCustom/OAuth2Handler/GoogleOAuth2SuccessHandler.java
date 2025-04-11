@@ -43,6 +43,6 @@ public class GoogleOAuth2SuccessHandler implements AuthenticationSuccessHandler 
 
         // Redirect to frontend
         String jwt = jwtUtility.generateToken(userRepository.findByEmail(email).get());
-        response.sendRedirect("http://localhost:5173/oauth-success/" + jwt);
+        response.sendRedirect("https://restaurant-chi-lake.vercel.app/oauth-success/" + jwt);
     }
 }
